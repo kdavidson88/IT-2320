@@ -1,0 +1,49 @@
+body
+{
+	font-family: "Trebuchet";
+	font-size: 20px;
+	
+	background-image: url("IntroSiteBackground.jpg")
+}
+
+.main h1, h2
+{
+	text-align: center;
+	color: #3300CC;
+	font-size: 30px; 
+}
+
+.main .paragraph
+{
+	width: 500 px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15 px;
+	
+}
+
+.main a:link
+{
+	display: inline-block;
+	border-style: outset;
+	font-weight: bold;
+	color: 000000;
+	background-color: 0066FF;
+	font-family: "Comic Sans MS";
+	width: 150px;
+	padding: 15px;
+}
+
+.main a:hover
+{
+	display: inline-block;
+	border-style: inset;
+	font-weight: bold;
+	color: 000000;
+	background-color: 003366;
+	font-family: "Comic Sans MS";
+	width: 150px;
+	padding: 15px;
+}
+
+
