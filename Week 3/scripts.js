@@ -9,15 +9,12 @@ function verifyName() {
 	}
 }
 
-//-----------------------------------------------//
-
-function stringCheckFirst(Name){
-	var letter = /^[a-zA-Z]+$/;
-	if(inputtxt.value.match(letter)){
-		return true;
-	}
-	else{
-		alert("Enter a valid name");
+//---Verify Email Address---//
+function verifyMail(){
+	var mail = document.getElementById("mail");
+	
+	if (name.value ==""){
+		alert("Please enter a valid email address");
 		return false;
 	}
 }
@@ -25,10 +22,5 @@ function stringCheckFirst(Name){
 //---Alert on Page reset----//
 
 function pageReset(){
-	alert("Please enter the correct information");
+	alert("Your information has been reset");
 }
-
-function manualReset(){
-	document.getElementById=("contactME").reset();
-}
-

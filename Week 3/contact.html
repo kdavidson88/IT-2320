@@ -26,7 +26,7 @@
 			<fieldset>
 			<legend>Contact Me</legend>
 			
-			<form id="contactMe" action="submit.html" method="post" onSubmit="return verifyName()">			
+			<form id="contactMe" action="submit.html" method="post" onSubmit="return verifyName()"  onReset="pageReset()">			
 				
 					<label for="name">Name:</label><br>
 					<input type="text" id="name" name=""><br>
@@ -36,7 +36,7 @@
 					<input type="text" id="comment" name="" size="50">
 					<br>
 					<br>
-					<input type="submit" id="submit" value="Send">
+					<input type="submit" value="Send">
 					<input type="reset" value="Reset">
 		
 			</form>
