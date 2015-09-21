@@ -1,42 +1,50 @@
+window.onload = function(){
+	alert("test")
+}
 
-
-//---Verify Email Address---//
-function verifyMail(){
-	var mail = document.getElementById("mail");
+window.onload = function PictureChange(){
 	
-	if (name.value ==""){
-		alert("Please enter a valid email address");
-		return false;
-	}
+	var img = document.getElementById("img");
+	img.addEventListener("click", ChangeImage);
 }
 
-//---Alert on Page reset----//
-
-function pageReset(){
-	alert("Your information has been reset");
+function ChangeImage(){
+	
+	if(document.getElementById("img").src = ".\images\IMG_20150625_112643933.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0431.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0431.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0433.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0433.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0451.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0451.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0454.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0454.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0471.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0471.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0493.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0493.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0496.jpg";
+	
+	elseif(document.getElementById("img").src = ".\images\DSCN0496.jpg")
+	
+		document.getElementById("img").src = ".\images\DSCN0505.jpg";
+	
+	else(document.getElementById("img").src = ".\images\DSCN0505.jpg")
+	
+		document.getElementById("img").src = ".\images\IMG_20150625_112643933.jpg";
+	
 }
 
-//---Unobtrusive Name Verify---//
-
-function(){
-	document.getElementById('name').onchange = verifyName();
-}
-
-function verifyName(){
-	if(typeof name != 'String'){
-		alert("Please enter a valid name")
-	}
-}
-
-
-//---Unobtrusive Mail Verify---//
-
-function(){
-	document.getElementById('mail').onchange = verifyMail();
-}
-
-function verifyMail(){
-	if(typeof mail != 'String'){
-		alert("Please enter a valid Email address")
-	}
-}
