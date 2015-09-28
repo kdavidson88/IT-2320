@@ -1,0 +1,16 @@
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\MyFirstJQueryApp.dll.config
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\MyFirstJQueryApp.dll
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\MyFirstJQueryApp.pdb
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Net.Http.Formatting.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.Helpers.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.Http.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.Http.WebHost.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.Mvc.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.Razor.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.WebPages.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\obj\Debug\MyFirstJQueryApp.csprojResolveAssemblyReference.cache
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\obj\Debug\MyFirstJQueryApp.dll
+C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\MyFirstJQueryApp\MyFirstJQueryApp\obj\Debug\MyFirstJQueryApp.pdb
