@@ -4,18 +4,24 @@
 
 Home.HighlightBackground = function ()
 {
-    $(".piece").click(function()
+    /*$(".piece").click(function()
     {
         $(this).toggleClass("highlighted");
-    })
-
-    /*$(".cell").click(function()
-    {
-        if($(this).className == "red")
-        {
-            alert("you clicked on a red piece");
-        }
     })*/
+
+    $(".piece").click(function()
+    {
+        if($(this).attr("class") == "piece")
+        {
+            $(this).addClass("highlighted");
+            $(this).removeClass("piece");
+        }
+        else
+        {
+            $(this).addClass("piece");
+            $(this).removeClass("highlighted");
+        }
+    })
   
 }
 
