@@ -14,3 +14,19 @@ C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\CheckerBoa
 C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.csprojResolveAssemblyReference.cache
 C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.dll
 C:\Users\kdavi\Desktop\IT-2320-master\Week 5 - Introduction to JQuery\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.pdb
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\CheckerBoard.dll.config
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\CheckerBoard.dll
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\CheckerBoard.pdb
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.Helpers.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.Mvc.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.Razor.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.WebPages.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.WebPages.Razor.xml
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.csprojResolveAssemblyReference.cache
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.dll
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.pdb
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Net.Http.Formatting.dll
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.Http.dll
+C:\Users\kdavi\Documents\Kyle_School\IT 2320\IT-2320\Week 5\CheckerBoard\CheckerBoard\bin\System.Web.Http.WebHost.dll

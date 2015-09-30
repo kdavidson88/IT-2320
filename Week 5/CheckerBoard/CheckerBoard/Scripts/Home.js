@@ -1,22 +1,30 @@
 ﻿var Home = {}
 
+
+
 Home.HighlightBackground = function ()
 {
-    $(".cell").click(function()
+    $(".piece").click(function()
     {
-        var cell = $(this);
-        if (cell)
-        {
-            $(this).toggleClass("highlighted");
-        }
-        else
-        {
-            $(this).toggleClass("cell");
-        }
-        
+        $(this).toggleClass("highlighted");
     })
 
+    /*$(".cell").click(function()
+    {
+        if($(this).className == "red")
+        {
+            alert("you clicked on a red piece");
+        }
+    })*/
+  
 }
+
+Home.MovePiece= function()
+{
+    
+}
+
+
 
 
 
@@ -34,6 +42,7 @@ $(document).ready(function ()
         colorCount += isNextRow ? 2 : 1;
         cell.css("background-color", isDark ? "navy" : "white");
     }   
+    
     
     Home.HighlightBackground();
 
