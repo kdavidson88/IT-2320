@@ -9,16 +9,16 @@ Home.HighlightBackground = function ()
         $(this).toggleClass("highlighted");
     })*/
 
-    $(".piece").click(function()
+    $(".cell").click(function()
     {
-        if($(this).attr("class") == "piece")
+        if($(this).attr("class") == "cell")
         {
             $(this).addClass("highlighted");
-            $(this).removeClass("piece");
+            $(this).removeClass("cell");
         }
         else
         {
-            $(this).addClass("piece");
+            $(this).addClass("cell");
             $(this).removeClass("highlighted");
         }
     })

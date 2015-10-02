@@ -38,5 +38,5 @@
 
 .highlighted
 {
-    background-color: yellow !important;
+    border: 1px solid lime;
 }
