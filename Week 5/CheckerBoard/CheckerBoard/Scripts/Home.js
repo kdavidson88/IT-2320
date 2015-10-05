@@ -1,10 +1,16 @@
-﻿var LastElement = {}
+﻿//Currently incomplete and working on. Using sample code to trouble shoot issues
+
+
+
+var LastElement = {}
 var CurrentElement = {};
 
 function ToggleHighlight()
 {
     var current = $(CurrentElement);
     var last = $(LastElement);
+
+    
 
     current.removeClass("cell");
     current.addClass("highlighted");
