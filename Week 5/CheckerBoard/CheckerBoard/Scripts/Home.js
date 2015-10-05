@@ -1,38 +1,16 @@
-﻿var Home = {}
+﻿var LastElement = {}
+var CurrentElement = {};
 
-
-
-Home.HighlightBackground = function ()
+function ToggleHighlight()
 {
-    /*$(".piece").click(function()
-    {
-        $(this).toggleClass("highlighted");
-    })*/
+    var current = $(CurrentElement);
+    var last = $(LastElement);
 
-    $(".cell").click(function()
-    {
-        if($(this).attr("class") == "cell")
-        {
-            $(this).addClass("highlighted");
-            $(this).removeClass("cell");
-        }
-        else
-        {
-            $(this).addClass("cell");
-            $(this).removeClass("highlighted");
-        }
-    })
-  
+    current.removeClass("cell");
+    current.addClass("highlighted");
+    last.removeClass("highlighted");
+    last.addClass("cell");
 }
-
-Home.MovePiece= function()
-{
-    
-}
-
-
-
-
 
 
 $(document).ready(function ()
@@ -49,9 +27,11 @@ $(document).ready(function ()
         cell.css("background-color", isDark ? "navy" : "white");
     }   
     
-    
-    Home.HighlightBackground();
-
+    $(".cell").click(function () {
+        CurrentElement = this;
+        ToggleHighlight();
+        LastElement = this;
+    })
     
 });
 
