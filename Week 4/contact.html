@@ -26,18 +26,18 @@
 			<fieldset>
 			<legend>Contact Me</legend>
 			
-			<form id="contactMe" action="submit.html" method="post">			
+			<form name="contactMe" action="mailto:kdavidson88@live.com" onsubmit="return validateForm()"method="post" enctype="text/plain">			
 				
 					<label for="name">Name:</label><br>
-					<input type="text" id="name" name=""><br>
+					<input type="text" id="name" name="name"><br>
 					<label for ="email">E-mail:</label><br>
-					<input type="text" id="mail" name=""><br>
+					<input type="text" id="mail" name="mail"><br>
 					<label for="comment">Comment:</label><br>
-					<input type="text" id="comment" name="" size="50">
+					<input type="text" id="comment" name="comment" size="50">
 					<br>
 					<br>
-					<input type="submit" value="Send">
-					<input type="reset" value="Reset">
+					<input type="submit" value="Submit">
+					<input type="reset" href="contact.html">
 		
 			</form>
 			

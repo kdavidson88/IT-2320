@@ -1,11 +1,9 @@
-window.onload = function(){
-	alert("test")
-}
 
 window.onload = function PictureChange(){
 	
+	
 	var img = document.getElementById("img");
-	img.addEventListener("click", ChangeImage);
+	
 }
 
 function ChangeImage(){
