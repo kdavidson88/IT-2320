@@ -1,7 +1,28 @@
 #showMeTheJson
 {
+<<<<<<< HEAD
+	text-align: center; 
+=======
+<<<<<<< HEAD
 	text-align: center; 
 	background-color: red;
 	color: yellow;	
 }
 
+=======
+>>>>>>> 52fdbc76da42c95a5048f075fe3c081682247fb4
+	background-color: red;
+	color: yellow;	
+}
+<<<<<<< HEAD
+
+=======
+ table
+ {
+ 	
+ 	border: 2px solid black;
+ 	text-align: center;
+ 	color: yellow;
+ }
+>>>>>>> origin/master
+>>>>>>> 52fdbc76da42c95a5048f075fe3c081682247fb4
