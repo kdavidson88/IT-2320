@@ -60,12 +60,13 @@ $(document).ready(function()
 		for(j = 0; j < game.weapon.length; j++)
 		{
 			var weap = game.weapon[j];
-			document.getElementById("showMeTheJSON").innerHTML += "<table>" + "<tr><td>" +
-				game.title + "    </td><td>" +
-				game.genre + "</td><td>" + 
-				game.date +"</td><td>" + 
-				game.character + "</td></tr>" + "<tr><td>" + "<em>" + weap.Primary +
-					"</td><td>" + "<em>" + weap.Secondary + "</td></tr>" + "<hr>"
+			document.getElementById("showMeTheJSON").innerHTML += "<br>" +
+				game.title + "<br>" +
+				game.genre + "<br>" + 
+				game.date + "<br>" + 
+				game.character + "<br>" + "<em>" +
+				 "Primary: " + weap.Primary + "<br>" + "<em>" + 
+				 "Secondary: " + weap.Secondary +"<br><hr>"
 		}			
 			
 	}
