@@ -10,7 +10,7 @@ $(document).ready(function ()
         
             url: "Home/GetPlayerInformation",
 
-            data: { PlayerNumber : $(".player-number-textbox").val() },
+            data: { "PlayerNumber" : $(".player-number-textbox").val() },
 
             success: function (response)
             {
