@@ -1,100 +1,386 @@
-body
+@media screen and (min-width: 1024px)
 {
-	width: 70%;
-	margin: auto;
-	background-color: 006699;
-	background-image: url("IntroSiteBackground.jpg");
-	background-repeat: repeat-y;
-	font-family: "Trebuchet";
-	font-size: 20px;
+	body
+	{
+		width: 70%;
+		margin: auto;
+		background-color: 006699;
+		background-image: url("IntroSiteBackground.jpg");
+		background-repeat: repeat-y;
+		font-family: "Trebuchet";
+		font-size: 20px;
+	}
+
+	h1
+	{
+		border-bottom: 1px solid black;
+		background-color: #99CCFF;
+		padding: 20px;
+		text-align: center;
+		margin: auto;
+	}
+
+
+	.familyimg
+	{
+		margin: auto;
+		height: 300px;
+		width: 400px;
+		border-style: groove;
+		border-width: 10px;
+		border-color: 0099CC;
+		background-image: url("IMG_20150625_112643933.jpg");
+		background-size: 400px 300px;
+	}
+
+	.paragraph
+	{
+		background-color: 006666;
+		width: 70% ;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+		padding: 5%;
+		border-style: ridge;
+		border-width: 20px;
+		border-color: #66CCFF;
+	}
+
+	.caption
+	{
+		text-align: center;
+		text-decoration: underline;
+		margin: auto;
+	}
+
+
+	.NavClass
+	{
+		background-color: #0099CC;
+		width: 80%;
+		border-style: outset;
+		border-color: #003366;
+		margin: auto;
+	}
+
+	.NavClass ul
+	{
+		text-align: center;
+		list-style: none;
+		margin: 10 px;
+	}
+
+	.NavClass  ul li
+	{
+		padding: 10px;
+		display: inline;
+		width: 100px;
+		font-family:"Comic Sans MS";
+	}
+
+	.NavClass a
+	{
+		text-decoration: none;
+		padding: 2%;
+		margin: 1%;
+	}
+
+	.NavClass a:hover
+	{
+		background-color: #66CCFF;
+	}
+
+	footer
+	{
+		background-color: #99CCFF;
+		height: 5%;
+		color: FFFFFF;
+		text-align: center;
+	}
 }
 
-h1
+@media screen and (min-width: 750px) and (max-width: 1024px)
 {
-	border-bottom: 1px solid black;
-	background-color: #99CCFF;
-	padding: 20px;
-	text-align: center;
-	margin: auto;
+	body
+	{
+		width: 70%;
+		margin: auto;
+		background-color: 006699;
+		background-image: url("IntroSiteBackground.jpg");
+		background-repeat: repeat-y;
+		font-family: "Trebuchet";
+		font-size: 20px;
+	}
+
+	h1
+	{
+		border-bottom: 1px solid black;
+		background-color: #99CCFF;
+		padding: 20px;
+		text-align: center;
+		margin: auto;
+	}
+
+
+	.familyimg
+	{
+		margin: auto;
+		height: 250px;
+		width: 350px;
+		border-style: groove;
+		border-width: 10px;
+		border-color: 0099CC;
+		background-image: url("IMG_20150625_112643933.jpg");
+		background-size: 350px 250px;
+	}
+
+	.paragraph
+	{
+		background-color: 006666;
+		width: 70% ;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+		padding: 5%;
+		border-style: ridge;
+		border-width: 20px;
+		border-color: #66CCFF;
+		
+	}
+
+	.caption
+	{
+		text-align: center;
+		text-decoration: underline;
+		margin: auto;
+	}
+
+
+	.NavClass
+	{
+		background-color: #0099CC;
+		width: 40%;
+		border-style: outset;
+		border-color: #003366;
+		margin: auto;
+	}
+
+	.NavClass ul
+	{
+		margin: auto;
+		list-style: none;
+		text-align: center;
+		padding-right: 40px;
+		
+	}
+
+	.NavClass  ul li
+	{
+		padding: 10px;
+		display: block;
+		font-family:"Comic Sans MS";
+	}
+
+	.NavClass a
+	{
+		text-decoration: none;
+		margin: 1%;
+	}
+
+	.NavClass a:hover
+	{
+		background-color: #66CCFF;
+	}
+
+	footer
+	{
+		background-color: #99CCFF;
+		height: 5%;
+		color: FFFFFF;
+		text-align: center;
+	}
 }
 
-
-.familyimg
+@media screen and (min-width: 350px) and (max-width: 750px)
 {
-	margin: auto;
-	height: 300px;
-	width: 400px;
-	border-style: groove;
-	border-width: 10px;
-	border-color: 0099CC;
+	body
+	{
+		width: 60%;
+		margin: auto;
+		background-color: 006699;
+		background-image: url("IntroSiteBackground.jpg");
+		background-repeat: repeat-y;
+		font-family: "Trebuchet";
+		font-size: 20px;
+	}
+
+	h1
+	{
+		border-bottom: 1px solid black;
+		background-color: #99CCFF;
+		padding: 20px;
+		text-align: center;
+		margin: auto;
+	}
+
+
+	.familyimg
+	{
+		margin: auto;
+		height: 200px;
+		width: 300px;
+		border-style: groove;
+		border-width: 10px;
+		border-color: #0099CC;
+		background-image: url("IMG_20150625_112643933.jpg");
+		background-size: 300px 200px;
+	}
+
+	.paragraph
+	{
+		background-color: 006666;
+		width: 90% ;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+		padding: 5%;
+		border-style: ridge;
+		border-width: 20px;
+		border-color: #66CCFF;
+		
+	}
+
+	.caption
+	{
+		text-align: center;
+		text-decoration: underline;
+		margin: auto;
+	}
+
+
+	.NavClass
+	{
+		background-color: #0099CC;
+		width: 40%;
+		border-style: outset;
+		border-color: #003366;
+		margin: auto;
+	}
+
+	.NavClass ul
+	{
+		margin: auto;
+		list-style: none;
+		text-align: center;
+		padding-right: 40px;
+		
+	}
+
+	.NavClass  ul li
+	{
+		width: 80%;
+		display: block;
+		font-family:"Comic Sans MS";
+	}
+
+	.NavClass a
+	{
+		text-decoration: none;
+	}
+
+	.NavClass a:hover
+	{
+		background-color: #66CCFF;
+	}
+
+	footer
+	{
+		background-color: #99CCFF;
+		height: 5%;
+		color: FFFFFF;
+		text-align: center;
+	}
 }
 
-.paragraph
+@media screen and (max-width: 350px)
 {
-	background-color: 006666;
-	width: 70% ;
-	text-align: center;
-	color: #ffffff;
-	margin: auto;
-	padding: 5%;
-	border-style: ridge;
-	border-width: 20px;
-	border-color: #66CCFF;
+	body
+	{
+		margin: auto;
+		background-color: 006699;
+		background-image: url("IntroSiteBackground.jpg");
+		background-repeat: repeat-y;
+		font-family: "Trebuchet";
+		font-size: 15px;
+	}
+
+	h1
+	{
+		border-bottom: 1px solid black;
+		background-color: #99CCFF;
+		padding: 20px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.paragraph
+	{
+		background-color: 006666;
+		width: 80% ;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+		padding: 5%;
+		border-style: ridge;
+		border-width: 10px;
+		border-color: #66CCFF;
+		
+	}
 	
+	.NavClass
+	{
+		background-color: #0099CC;
+		width: 40%;
+		border-style: outset;
+		border-color: #003366;
+		margin: auto;
+	}
+
+	.NavClass ul
+	{
+		margin: auto;
+		list-style: none;
+		text-align: center;
+		padding-right: 40px;
+		
+	}
+
+	.NavClass  ul li
+	{
+		padding: 10px;
+		display: block;
+		font-family:"Comic Sans MS";
+	}
+
+	.NavClass a
+	{
+		text-decoration: none;
+		margin: auto;
+	}
+
+	.NavClass a:hover
+	{
+		background-color: #66CCFF;
+	}
+
+	footer
+	{
+		background-color: #99CCFF;
+		height: 5%;
+		color: FFFFFF;
+		text-align: center;
+	}
 }
-
-.caption
-{
-	text-align: center;
-	text-decoration: underline;
-	margin: auto;
-}
-
-
-.NavClass
-{
-    background-color: #0099CC;
-	width: 80%;
-	border-style: outset;
-	border-color: #003366;
-	margin: auto;
-}
-
-.NavClass ul
-{
-	text-align: center;
-	list-style: none;
-	margin: 10 px;
-}
-
-.NavClass  ul li
-{
-	padding: 10px;
-	display: inline;
-	width: 100px;
-	font-family:"Comic Sans MS";
-}
-
-.NavClass a
-{
-	text-decoration: none;
-	padding: 2%;
-	margin: 1%;
-}
-
-.NavClass a:hover
-{
-	background-color: #66CCFF;
-}
-
-footer
-{
-	background-color: #99CCFF;
-	height: 5%;
-	color: FFFFFF;
-	text-align: center;
-}
-
 
 
 
