@@ -1,0 +1,13 @@
+body{
+	background-color: slategray;
+}
+
+#carousel{
+	position: relative;
+	overflow: hidden;
+	margin-top: 200px;
+	margin:auto;
+	display: block;
+	background-color: lightgray;
+	border: 10px groove darkorange;
+}
